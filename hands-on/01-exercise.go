@@ -23,5 +23,7 @@ func main() {
 // um valor adicional (float64).
 
 func adicionarConsumo(consumo *float64, adicional float64) {
-	scan("input pela memoria")
+	*consumo = *consumo + adicional
 }
+
+// STEP: Conversão de tipos e Slice
