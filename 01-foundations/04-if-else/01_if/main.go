@@ -15,9 +15,10 @@ func main() {
 
 	if idade < 17 {
 		fmt.Println("Vishhhh")
-		fmt.Println("Melhor ir tomar leite")
+		fmt.Println("Melhor ir p/ casa tomar leite")
 	}
 
-	else {
+	if idade == 18 {
 		fmt.Println("Mostre sua identidade, pra gente verificar?")
 	}
+}
