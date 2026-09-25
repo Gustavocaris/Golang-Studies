@@ -5,11 +5,13 @@
 
 package main
 
+import "fmt"
+
 func main() {
 	var option int
-	print("Qual Whey voce gostaria de escolher ? 1 -> Normal 2 -> Isolado 3 -> hidrolisado")
+	fmt.Print("Qual Whey voce gostaria de escolher ? 1 -> Normal 2 -> Isolado 3 -> hidrolisado")
 
-	scanf("")
+	fmt.Scanf("%d", &option)
 
 	switch option {
 	}
