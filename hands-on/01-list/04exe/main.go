@@ -9,17 +9,20 @@ import "fmt"
 
 func main() {
 	var option int
-	fmt.Print("Qual Whey voce gostaria de escolher ? 1 -> Normal 2 -> Isolado 3 -> hidrolisado")
+	fmt.Print("Qual Whey voce gostaria de escolher ? 1 -> Normal 2 -> Isolado 3 -> hidrolisado: ")
 
 	fmt.Scanf("%d", &option)
 
+	// com template, alteramos apenas o valor na hora de passar a mgs
+	txtTemplate := "o valor ficou: R$%.2f\n"
+
 	switch option {
 	case 1:
-		fmt.Println("O preço do Whey Normal é 100 reais")
+		fmt.Printf(txtTemplate, 100.00)
 	case 2:
-		fmt.Println("O whey Isolado custa 150 reais")
+		fmt.Printf(txtTemplate, 150.00)
 	case 3:
-		fmt.Println("O whey hidrolisado, é mais carinho. Fica em 200 reais")
+		fmt.Printf(txtTemplate, 200.00)
 	default:
 		fmt.Println("Opção invalida. Digite uma Opção valida")
 	}
