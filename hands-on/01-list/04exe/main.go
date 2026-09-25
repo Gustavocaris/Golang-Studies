@@ -14,6 +14,14 @@ func main() {
 	fmt.Scanf("%d", &option)
 
 	switch option {
+	case 1:
+		fmt.Println("O preço do Whey Normal é 100 reais")
+	case 2:
+		fmt.Println("O whey Isolado custa 150 reais")
+	case 3:
+		fmt.Println("O whey hidrolisado, é mais carinho. Fica em 200 reais")
+	default:
+		fmt.Println("Opção invalida. Digite uma Opção valida")
 	}
 
 }
