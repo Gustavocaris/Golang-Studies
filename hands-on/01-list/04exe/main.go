@@ -28,7 +28,14 @@ func main() {
 	}
 
 	switch option {
-
+	case 1:
+		fmt.Println("Você escolheu Whey Normal")
+	case 2:
+		fmt.Println("Você escolheu Whey Isolado")
+	case 3:
+		fmt.Println("Você escolheu Whey Hidrolisado")
+	default:
+		fmt.Println("Opção invalida. Digite uma Opção valida")
 	}
 
 }
