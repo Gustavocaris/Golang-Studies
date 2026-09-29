@@ -27,4 +27,8 @@ func main() {
 		fmt.Println("Opção invalida. Digite uma Opção valida")
 	}
 
+	switch option {
+
+	}
+
 }
