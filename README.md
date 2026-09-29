@@ -1,4 +1,6 @@
 # Golang-Studies
-My studies on the Go language, widely used in development and cloud computing
+My repo about studies on the Go language, widely used in development and cloud computing
 
-## Repository structure:
+## repository structure
+
+## List of exercises and hands-on practice
