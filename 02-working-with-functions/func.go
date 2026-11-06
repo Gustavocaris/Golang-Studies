@@ -9,7 +9,7 @@ func welcome() {
 func main() {
 	welcome()
 	fmt.Println("This is my function.")
-	welcome()
+	createMovie()
 }
 
 func createMovie() {
