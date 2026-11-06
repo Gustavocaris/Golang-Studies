@@ -1,5 +1,9 @@
 package main
 
-func handler() {
+import (
+	"fmt"
+)
 
+func handler() {
+	fmt.Fprint()
 }
