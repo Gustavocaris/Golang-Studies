@@ -24,4 +24,14 @@ func main() {
 
 	fmt.Println("Arquivo criado e escrito com sucesso!")
 
+	// lendo o arquivo
+	conteudo, err := os.ReadFile("arquivo.txt")
+	if err != nil {
+		fmt.Println("Erro ao ler o arquivo:", err)
+		return
+	}
+
+	fmt.Println("Conteúdo do arquivo:")
+	fmt.Println(string(conteudo))
+
 }
