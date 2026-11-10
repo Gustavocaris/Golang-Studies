@@ -5,3 +5,14 @@ type Person struct {
 	Age     int    `json:"age"`
 	Country string `json:"country"`
 }
+
+func main() {
+
+	// 1. Criar uma pessoa
+	person := Person{
+		Name:    "Gustavo",
+		Age:     24,
+		Country: "Brasil",
+	}
+
+}
