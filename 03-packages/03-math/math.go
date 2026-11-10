@@ -1,4 +1,4 @@
-package math
+package main
 
 import (
 	"fmt"
@@ -6,9 +6,14 @@ import (
 )
 
 func acessPi() {
-	fmt.Printf("PI arredondado (3 casas decimais): %.3f\n", math.Pi)
+	fmt.Printf("PI arredondado (8 casas decimais): %.8f\n", math.Pi)
+}
+
+func acessEuler() {
+	fmt.Printf("Euler arredondado (8 casas decimais): %.8f\n", math.E)
 }
 
 func main() {
-
+	acessPi()
+	acessEuler()
 }
