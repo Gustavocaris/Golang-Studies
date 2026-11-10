@@ -39,4 +39,9 @@ func main() {
 		return
 	}
 
+	fmt.Println("\nDados recuperados:")
+	fmt.Println("Nome:", newPerson.Name)
+	fmt.Println("Idade:", newPerson.Age)
+	fmt.Println("País:", newPerson.Country)
+
 }
