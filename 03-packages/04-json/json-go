@@ -27,4 +27,16 @@ func main() {
 		return
 	}
 
+	fmt.Println("JSON gerado:")
+	fmt.Println(string(jsonData))
+
+	// 3 Converter JSON para Struct
+	var newPerson Person
+
+	err = json.Unmarshal(jsonData, &newPerson)
+	if err != nil {
+		fmt.Println("Erro ao ler JSON:", err)
+		return
+	}
+
 }
